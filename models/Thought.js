@@ -1,6 +1,6 @@
 const { Schema, model, Types } = require("mongoose");
 const { DateTime } = require("luxon");
-const dateFormat = require("../utils");
+const dateFormat = require("../utils/dateFormat");
 
 const ReactionSchema = new Schema({
   reactionId: {
@@ -46,6 +46,7 @@ const ThoughtSchema = new Schema(
       virtuals: true,
       getters: true,
     },
+    id: false,
   }
 );
 
