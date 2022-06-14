@@ -2,7 +2,7 @@ const { Schema, model, Types } = require("mongoose");
 const { DateTime } = require("luxon");
 const dateFormat = require("../utils");
 
-const ReactionSchema = newSchema({
+const ReactionSchema = new Schema({
   reactionId: {
     type: Schema.Types.ObjectId,
     default: () => new Types.ObjectId(),
