@@ -10,7 +10,6 @@ const {
 
 router.route("/").get(getAllThoughts);
 router.route("/:id").get(getThoughtById).post(addThought).put(updateThought);
-
 router.route("/:thoughtId/:userId").delete(deleteThought);
 
 module.exports = router;
