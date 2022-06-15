@@ -22,9 +22,10 @@ const ReactionSchema = new Schema(
       default: () => DateTime.local(),
     },
   },
-  { _id: false }
+  {
+    _id: false,
+  }
 );
-
 const ThoughtSchema = new Schema(
   {
     thoughtText: {
