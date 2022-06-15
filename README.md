@@ -18,7 +18,7 @@ Viewing a single user in insomnia:
 
 ## Video walkthrough
 
-[Here is a video demonstrating the routes]()
+[Here is a video demonstrating the routes](https://drive.google.com/file/d/1s18maXQn5faFmC3vXZAnFK4YburKq7XO/view?usp=sharing)
 
 ## Technologies
 
